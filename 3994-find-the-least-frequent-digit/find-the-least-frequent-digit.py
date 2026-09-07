@@ -8,11 +8,9 @@ class Solution:
                 hash[n%10]=1
             n=n//10
         small=10
-        print(hash)
         for i in hash.values():
             if i<small:
                 small=i
-        print(small)
         arr=[]
         for i in hash.keys():
             if hash[i]==small:
