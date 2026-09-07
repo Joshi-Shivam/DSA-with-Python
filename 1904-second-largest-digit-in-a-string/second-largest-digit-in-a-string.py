@@ -14,7 +14,6 @@ class Solution:
                 break
             j+=1
         if flag==0:
-            print("-1 condn")
             return -1
         for i in range(len(arr)):
             small=i
