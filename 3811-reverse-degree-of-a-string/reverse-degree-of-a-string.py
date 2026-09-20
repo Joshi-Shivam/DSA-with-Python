@@ -9,10 +9,7 @@ class Solution:
         res=0
         count=1
         for i in range(len(s)):
-            print(f"current str {s[i]}")
-            print(f"Hash value {hash[s[i]]} times i {count}")
             res+=hash[s[i]]*count
-            print(f"Current res {res}")
             count+=1
         return res
 
