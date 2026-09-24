@@ -14,20 +14,12 @@ class Solution:
                     else:
                         hash[j]=0
             temp=[]
-            print(hash)
             for i in hash.values():
                 temp.append(i)
-            for i in range(len(temp)):
-                small=i
-                for j in range(i,len(temp)):
-                    if temp[j]<temp[small]:
-                        small=j
-                temp[i],temp[small]=temp[small],temp[i]
-            print(temp)
+            temp.sort()
             max=temp[-1]
             if max==0:
                 max=1
-            print(max)
             for i in hash:
                 if hash[i]==max:
                     arr.append(i)
