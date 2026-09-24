@@ -30,17 +30,12 @@ class Solution:
                 hash2[word]+=1
         else:
                 hash2[word]=1
-        print(hash,hash2)
         arr=[]
         for i in hash2:
-            print(f"Current {i}")
             if i in hash:
-                print("Alread +1")
                 hash[i]+=1
             else:
-                print("New word =1")
                 hash[i]=hash2[i]
-        print(hash)
         for i in hash:
             if hash[i]==1:
                 arr.append(i)
