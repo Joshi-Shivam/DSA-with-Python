@@ -9,12 +9,7 @@ class Solution:
         arr=[]
         for i in hash.values():
             arr.append(i)
-        for i in range(len(arr)):
-            smal=i
-            for j in range(i,len(arr)):
-                if arr[j]>arr[smal]:
-                    smal=j
-            arr[i],arr[smal]=arr[smal],arr[i]
+        arr.sort(reverse=True)
         new=[]
         count=0
         for i in arr:
