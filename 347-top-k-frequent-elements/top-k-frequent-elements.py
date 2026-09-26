@@ -16,7 +16,6 @@ class Solution:
             if len(new)==k:
                 break
             for j in hash.keys():
-                print(i,hash[j])
                 if i==hash[j]:
                     if j not in new:
                         new.append(j)
