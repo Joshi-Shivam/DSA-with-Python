@@ -10,7 +10,6 @@ class Solution:
                     temp+=1
                 i=i//2
             hash[n]=temp
-        print(hash)
         big=max(hash.values())
         res=[]
         for i in range(big+1):
