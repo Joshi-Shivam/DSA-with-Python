@@ -3,12 +3,7 @@ class Solution:
         og={}
         for i in range(len(nums)):
             og[nums[i]]=i
-        for i in range(len(nums)):
-            small=i
-            for j in range(i,len(nums)):
-                if nums[j]<nums[small]:
-                    small=j
-            nums[i],nums[small]=nums[small],nums[i]
+        nums.sort()
         hash={}
         for i in range(len(nums)-1):
             hash[nums[i]]=nums[i]*2
