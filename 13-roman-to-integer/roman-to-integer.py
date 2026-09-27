@@ -23,8 +23,7 @@ class Solution:
                     num+=temp
                     i+=2
                 else:
-                    num+=rom[s[i]]
-                    print()
+                    num+=rom[s[i]]                    
                     i+=1
                     
         return num
