@@ -4,7 +4,6 @@ class Solution:
         for i in nums:
             hash[i]=1
         while original in hash:
-            print(f"{original} in hash")
             original*=2
         return original
 
