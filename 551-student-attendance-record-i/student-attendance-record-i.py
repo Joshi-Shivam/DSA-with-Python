@@ -8,11 +8,8 @@ class Solution:
                 else:
                     hash[i]=1
         i=0
-        print(hash)
         late=""
         while i<len(s):
-            print("Current idx ",s[i])
-            print("Current late ",late)
             if late=="LLL":
                 return False
             if s[i]=="L":
