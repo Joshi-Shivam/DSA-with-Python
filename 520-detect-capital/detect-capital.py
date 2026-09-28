@@ -14,7 +14,6 @@ class Solution:
             arr=[]
             for i in range(1,len(word)):
                 arr.append(word[i])
-            print(arr)
             flag=1
             if ord(arr[0]) in range(97,123):
                 for i in arr:
