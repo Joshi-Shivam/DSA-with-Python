@@ -1,7 +1,6 @@
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         if len(word)==1:
-            if ord(word[0]):
                 return True
         if ord(word[0]) in range(97,123):
             low=1
