@@ -3,7 +3,6 @@ class Solution:
         arr=[]
         for i in s:
             arr.append(i)
-        print(arr)
         i=0
         j=len(arr)-1
         while i<j:
