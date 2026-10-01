@@ -5,7 +5,6 @@ class Solution:
         for i in nums:
             print(res,count)
             if i%3==0 and i%2==0:
-                print("enter cond ",i)
                 res+=i
                 count+=1
         if res==0 or count==0:
