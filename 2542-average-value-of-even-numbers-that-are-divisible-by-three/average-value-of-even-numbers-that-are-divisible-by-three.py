@@ -3,7 +3,6 @@ class Solution:
         res=0
         count=0
         for i in nums:
-            print(res,count)
             if i%3==0 and i%2==0:
                 res+=i
                 count+=1
