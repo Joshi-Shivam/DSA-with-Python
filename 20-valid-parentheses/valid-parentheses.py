@@ -10,7 +10,7 @@ class Solution:
             if len(stack)==0 and i in [")","]","}"]:
                 return False
             else:
-                if i in ["(","[","{"]:
+                if i in {"(","[","{"}:
                     stack.append(i)
                 else:
                     if stack[-1]==check[i]:
