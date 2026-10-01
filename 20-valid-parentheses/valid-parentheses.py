@@ -7,7 +7,7 @@ class Solution:
             ")":"("
         }
         for i in s:
-            if len(stack)==0 and i in [")","]","}"]:
+            if len(stack)==0 and i in {")","]","}"}:
                 return False
             else:
                 if i in {"(","[","{"}:
