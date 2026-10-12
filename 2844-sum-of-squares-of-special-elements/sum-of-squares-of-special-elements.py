@@ -7,8 +7,6 @@ class Solution:
                 new.append(i)
         i=0
         while i<len(new):
-            
-            print(new)
             new[i]=new[i]*new[i]
             i+=1
         return sum(new)
