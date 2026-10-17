@@ -8,14 +8,9 @@ class Solution:
                 if i in hash:
                     hash[i]+=1
                 else:
-                    hash[i]=1
-            flag=1
+                    hash[i]=1            
             for i in hash.values():
-                if i%2!=0:
-                    flag=0
+                if i%2!=0:                    
                     return False
-            if flag==1:
-                return True
-            elif flag==0:
-                return False
+            return True
         
