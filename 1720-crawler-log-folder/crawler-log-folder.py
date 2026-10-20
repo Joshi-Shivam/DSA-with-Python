@@ -3,7 +3,6 @@ class Solution:
         stack=[]
         i=0
         while i<len(logs):
-            print(stack,len(stack))
             if logs[i]=="./":
                 i+=1
             else:
