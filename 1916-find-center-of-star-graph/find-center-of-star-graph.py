@@ -7,7 +7,6 @@ class Solution:
                     hash[j]+=1
                 else:
                     hash[j]=1
-        print(hash)
         for i in hash:
             if hash[i]==len(edges):
                 return i
