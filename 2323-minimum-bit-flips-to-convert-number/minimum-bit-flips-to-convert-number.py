@@ -10,7 +10,6 @@ class Solution:
             goal=goal//2
         a1=a1[::-1]
         a2=a2[::-1]
-        print(a1,a2)
         if len(a1)>len(a2):
             temp=len(a1)-len(a2)
             for i in range(temp):
@@ -19,7 +18,6 @@ class Solution:
             temp=len(a2)-len(a1)
             for i in range(temp):
                 a1.insert(i,0)
-        print(a1,a2)
         i,j=0,0
         count=0
         while j<len(a1):
