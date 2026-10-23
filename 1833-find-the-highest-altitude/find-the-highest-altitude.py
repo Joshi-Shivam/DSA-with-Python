@@ -6,7 +6,6 @@ class Solution:
         for i in gain:
             count+=i
             pre.append(count)
-        print(pre)
         return max(pre)
 
         
