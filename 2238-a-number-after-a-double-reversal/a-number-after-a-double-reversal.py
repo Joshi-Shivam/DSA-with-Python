@@ -9,7 +9,6 @@ class Solution:
             while num>0:
                 new=(new*10)+(num%10)
                 num=num//10
-            print(new)
             while new>0:
                 res=(res*10)+(new%10)
                 new=new//10
