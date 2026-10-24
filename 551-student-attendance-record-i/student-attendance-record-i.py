@@ -23,7 +23,7 @@ class Solution:
             if hash["A"]>=2:
                 return False
         except KeyError:
-            print("No absents")
+            pass
             
         return True
             
