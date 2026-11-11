@@ -19,7 +19,6 @@ class Solution:
 
         cost_overlap = (min_val * costBoth) + ((need1 - min_val) * cost1) + ((need2 - min_val) * cost2)
 
-        # Your final comparison expanded to check all three
         if cost_separate <= cost_max_combos and cost_separate <= cost_overlap:
             return cost_separate
         elif cost_max_combos <= cost_separate and cost_max_combos <= cost_overlap:
