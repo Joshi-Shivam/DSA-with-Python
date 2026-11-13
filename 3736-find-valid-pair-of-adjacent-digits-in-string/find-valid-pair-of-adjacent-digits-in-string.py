@@ -7,7 +7,6 @@ class Solution:
                 hash[i]+=1
             else:
                 hash[i]=1
-        print(hash)
         i=0
         j=1
         if len(hash)<=1:
