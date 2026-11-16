@@ -18,7 +18,6 @@ class Solution:
                         temp+=i
                         count+=1
             arr.append(int(temp))
-            print(arr)
             res=""
             for i in arr:
                 num=0
@@ -30,7 +29,6 @@ class Solution:
                         i=i//10
                     res+=str(num)
             s=res
-            print(s)
         return s
 
 
