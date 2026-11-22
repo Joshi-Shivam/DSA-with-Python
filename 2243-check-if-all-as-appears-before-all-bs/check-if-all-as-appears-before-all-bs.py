@@ -1,6 +1,5 @@
 class Solution:
     def checkString(self, s: str) -> bool:
-        flag=0
         i=0
         j=1
         while j<len(s):
