@@ -4,7 +4,6 @@ class Solution:
         max=0        
         for i in range(1,nums[-1]+1):
             if nums[0]%i==0 and nums[-1]%i==0:
-                print(f"candidate for max : {i}, current max {max}")
                 if i>max:
                     max=i
         if max==0:
