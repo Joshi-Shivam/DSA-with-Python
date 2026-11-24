@@ -3,7 +3,6 @@ class Solution:
         nums.sort()
         max=0        
         for i in range(1,nums[-1]+1):
-            print(i)
             if nums[0]%i==0 and nums[-1]%i==0:
                 print(f"candidate for max : {i}, current max {max}")
                 if i>max:
