@@ -4,26 +4,20 @@ class Solution:
             return True
         place=0
         turn=10
-        bob=0
-        alice=0
+        flag=None
         while n>0:
             if (n-turn)>=0:
                 n=n-turn
                 turn-=1                
                 place+=1
-                print(f"{place} chance ")
                 if place%2==0:
-                    print(f"Bob wins round current n is {n}")
-                    bob=1
-                    alice=0
+                    flag=False
                 elif place%2!=0:
-                    print(f"Alice wins round current n is {n}")
-                    alice=1
-                    bob=0
+                    flag=True
             else:
                 break
             
-        if alice==1:
+        if flag==1:
             return True
         else:
             return False
