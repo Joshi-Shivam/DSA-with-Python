@@ -10,7 +10,6 @@ class Solution:
             arr[i],arr[j]=arr[j],arr[i]
             i+=1
             j-=1
-        print(arr)
         even=0
         odd=0
         count=0
