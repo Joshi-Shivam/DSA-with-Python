@@ -13,7 +13,6 @@ class Solution:
             flag=1
             while i>0:
                 if (i%10) in seth and (seth[i%10]>=1):
-                    print(f"{temp} is candidate and {i%10} is in ")
                     seth[i%10]-=1
                     flag=1
                 else:
